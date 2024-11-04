@@ -86,8 +86,8 @@ def save_model(model, scaler, filename=r'pickle_files/model_crypto.pkl', scaler_
 
 def main():
     # Load and preprocess data
-    stocks = ['GTCO.IL', 'AAF.L', 'FRBA', 'SEPL.L']
-    start_date = '2021-08-01'
+    stocks = ['AAPL', 'AMZN', 'GOOG', 'META']
+    start_date = '2024-01-01'
     end_date = datetime.datetime.now().strftime('%Y-%m-%d')
     stock_df = load_data(stocks, start_date, end_date)
     stock_df = preprocess_data(stock_df)
