@@ -1,0 +1,11 @@
+catboost==1.2.3
+lightgbm==4.5.0
+matplotlib==3.8.4
+numpy>=1.21,<2
+pandas==2.2.2
+plotly==5.22.0
+scikit_learn==1.4.2
+seaborn==0.13.2
+streamlit==1.32.0
+xgboost==2.1.1
+yfinance==0.2.43
