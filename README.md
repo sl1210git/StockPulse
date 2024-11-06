@@ -34,12 +34,11 @@ STOCK PULSE can be used to forecasting the future value of a company's stock bas
 - **Tools**: PyCharm, Streamlit
 
 ## Installation
-
 To get started, clone this repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/Onibuje-Olalekan/stock-prediction.git
-cd stock-prediction
+git clone https://github.com/sl1210git/StockPulse
+cd StockPulse
 pip install -r requirements.txt
 brew install libomp
 ```
